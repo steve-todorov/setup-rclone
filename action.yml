@@ -52,7 +52,7 @@ runs:
         version: ${{ steps.version-windows.outputs.version }}
         
     - name: Install Rclone on tool cache
-      uses: AnimMouse/tool-cache@v1
+      uses: steve-todorov/tool-cache@issues/3
       with:
         folder_name: Rclone
         
